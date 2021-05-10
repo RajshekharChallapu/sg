@@ -1,9 +1,10 @@
+// for latest version below not need to import react..
 import React from "react";
 
 function ApprovalCard(props) {
   console.log(props.children)
   return (
-    <div className="Uui card">
+    <div className="ui card">
       <div className="content">{props.children}</div>
       <div className="extra content">
       <div className="ui buttons">
